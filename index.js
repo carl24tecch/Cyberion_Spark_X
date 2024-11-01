@@ -81,7 +81,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['Flash-MD', "safari", "1.0.0"],
+            browser: ['Cyberion-Spark-X', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -866,7 +866,7 @@ ${metadata.desc}\n\n Cyberion-Spark-X.`;
     ┃  ⚙️Created on : *23.8.2024*
     ┃  📃Total Commands : ${evt.cm.length}
     ✰⁠⁠⁠⁠▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰✰
- └─────═━┈┈━═─ ─ ═━┈┈━═─────┘
+ └─────═━┈┈━═─⊷─⊷═━┈┈━═─────┘
          *𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗦𝗣𝗔𝗥𝗞-𝗫*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
